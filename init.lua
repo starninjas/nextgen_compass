@@ -86,6 +86,15 @@ for i,img in ipairs(images) do
 	})
 end
 
+minetest.register_craft({
+	output = "nextgen_compass:"..stereotype_frame,
+	recipe = {
+		{"", "default:steel_ingot", ""},
+		{"default:steel_ingot", "default:mese_crystal", "default:steel_ingot"},
+		{"", "default:steel_ingot", ""}
+	}
+})
+
 minetest.register_alias("nextgen_compass:compass", "nextgen_compass:"..stereotype_frame)
 
 -- Export stereotype item for other mods to use
