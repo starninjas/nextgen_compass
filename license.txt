@@ -1,5 +1,5 @@
 Code:
-This mod is from MineClone2 (GNU)
+This mod is from MineClone2 (GPLv3)
 Mod Conversion:
 By StarNinjas
 Media: 
